@@ -1,0 +1,13 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "10:00"
+    timezone: America/New_York
+  open-pull-requests-limit: 30
+  ignore:
+  - dependency-name: pyaml
+    versions:
+    - 20.4.0
