@@ -1,4 +1,4 @@
-pandas==1.2.4
+pandas==1.2.5
 pyaml==20.4.0
 tensorboard==2.5.0
 torch==1.9.0
